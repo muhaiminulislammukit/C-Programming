@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+ 
+// multiple input for integer
+int a, b, c;
+
+scanf ("%d %d %d ", &a , &b , &c);
+
+printf ("%d %d %d " , a , b, c);
+
+ 
+    return 0;
+}
