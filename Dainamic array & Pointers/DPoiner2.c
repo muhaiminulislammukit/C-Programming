@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 3 , b = 4;
+
+    int *x = &a , *y = &b;
+
+    printf("%d %d\n", a, b);
+    // swap
+    int  temp = *x;
+     *x = *y;
+     *y = temp;
+    printf("%d %d\n", a, b); 
+ 
+    return 0;
+}
